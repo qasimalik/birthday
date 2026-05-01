@@ -167,6 +167,12 @@ nav a:hover{background:var(--rose);color:#fff;}
   transition:transform 0.4s;
   width:100%;
 }
+.image{
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  object-position: center top;
+}
 .polaroid:hover{transform:rotate(0deg) scale(1.04);}
 .polaroid img,.polaroid .photo-placeholder{
   width:100%;aspect-ratio:1;
@@ -557,7 +563,7 @@ nav a:hover{background:var(--rose);color:#fff;}
     <span class="sticker" style="--r:8deg">✨</span>
     <div class="polaroid">
       <!-- Replace src with your girlfriend's photo! -->
-        <img src="image.jpeg" alt="Photo">
+        <img src="image.jpeg" alt="Photo" class="image">
       <p class="polaroid-caption">My favourite human 💖</p>
     </div>
   </div>
